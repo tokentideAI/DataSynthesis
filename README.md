@@ -10,9 +10,6 @@ This repository tracks and organizes the latest, most relevant work in synthetic
 ## **General tasks**
 ### Method
 
-Here is the properly formatted Markdown table. The previous version failed to render because it was missing the required header row and line breaks.
-
-### Method
 
 | Date | Paper | Link | Desc | Venue |
 | --- | --- | --- | --- | --- |
