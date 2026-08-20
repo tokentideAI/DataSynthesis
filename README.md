@@ -34,15 +34,14 @@ This repository tracks papers, open-source projects, datasets, benchmarks, and p
 
 ---
 
+
 ## Agents, World Models & Long-Horizon Data
 
 | Date | Paper | Project / Code | Description | Venue |
 | --- | --- | --- | --- | --- |
+| 2026.01 | [From Self-Evolving Synthetic Data to Verifiable-Reward RL: Post-Training Multi-turn Interactive Tool-Using Agents](https://arxiv.org/abs/2601.22607) | [GitHub](https://github.com/inclusionAI/AReaL) | Unifies **self-evolving synthetic data generation with verifier-based RL** for multi-turn interactive tool-using agents. Its EigenData/AReaL-SEA pipeline synthesizes tool-grounded dialogues together with executable per-instance verifiers, then applies SFT followed by GRPO-style RL with trajectory-level rewards and dynamic filtering. This work provides a practical blueprint for scaling long-horizon agent training from synthetic trajectories to verifiable-reward reinforcement learning. | *arXiv* |
 | 2026.02 | [Agent World Model: Infinity Synthetic Environments for Agentic Reinforcement Learning](https://arxiv.org/abs/2602.10090) | [GitHub](https://github.com/Snowflake-Labs/agent-world-model) | Introduces **Agent World Model (AWM)**, a fully synthetic environment-generation pipeline that scales to 1,000 executable, database-backed environments for multi-turn tool-use and agentic reinforcement learning. | *ICML 2026* |
 | 2026.04 | [Agent-World: Scaling Real-World Environment Synthesis for Evolving General Agent Intelligence](https://arxiv.org/abs/2604.18292) | [Project](https://agent-tars-world.github.io/-/) | Builds a self-evolving training arena that discovers real-world tool ecosystems, synthesizes verifiable tasks, identifies agent capability gaps, and continuously generates new training environments and tasks. | *arXiv* |
 | 2026.06 | [Autodata: An Agentic Data Scientist to Create High Quality Synthetic Data](https://arxiv.org/abs/2606.25996) | [Project](https://facebookresearch.github.io/RAM/blogs/autodata/) | Treats synthetic-data generation as an autonomous data-science process. Its **Agentic Self-Instruct** formulation iteratively creates, evaluates, analyzes, and improves datasets, while also meta-optimizing the data-generation agent itself. | *arXiv* |
 | 2026.07 | [LeAct: Learning to Reason from Expert Actions](https://arxiv.org/abs/2607.21856) | — | Treats expert systems such as game solvers, planners, and other algorithmic experts as reasoning teachers. LeAct searches for latent reasoning traces that make expert actions more likely under the student model, enabling reasoning supervision to be recovered from actions alone. | *arXiv* |
 | 2026.07 | [Environment-free Synthetic Data Generation for API-Calling Agents](https://arxiv.org/abs/2607.16900) | [Apple Research](https://machinelearning.apple.com/research/environment-free) | Generates multi-turn API-agent trajectories without constructing executable environments. An LLM acts as an on-the-fly stateful world model, while task generation, teacher-agent rollouts, environment simulation, and trajectory filtering form an environment-free synthetic-data pipeline. | *arXiv* |
-
----
----
