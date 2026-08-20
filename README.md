@@ -24,13 +24,16 @@ This repository tracks papers, open-source projects, datasets, benchmarks, and p
 
 ## General-Purpose Synthetic Data
 
+
 ### Methods
 
 | Date | Paper | Project / Code | Description | Venue |
 | --- | --- | --- | --- | --- |
-| 2022.12 | [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) | [GitHub](https://github.com/yizhongw/self-instruct) | Establishes the Self-Instruct paradigm: bootstrap a large instruction-tuning dataset from a small set of seed tasks using the language model itself, followed by filtering and refinement. | *ACL 2023* |
+| 2022.12 | [Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/abs/2212.10560) | [GitHub](https://github.com/yizhongw/self-instruct) | Establishes the **Self-Instruct** paradigm: bootstrap a large instruction-tuning dataset from a small set of seed tasks using the language model itself, followed by filtering and refinement. | *ACL 2023* |
 | 2023.04 | [WizardLM: Empowering Large Language Models to Follow Complex Instructions](https://arxiv.org/abs/2304.12244) | [GitHub](https://github.com/nlpxucan/WizardLM) | Introduces **Evol-Instruct**, which automatically evolves simple instructions into increasingly complex ones to improve instruction-following capabilities. | *ICLR 2024* |
 | 2023.06 | [Textbooks Are All You Need](https://arxiv.org/abs/2306.11644) | [Phi-1](https://huggingface.co/microsoft/phi-1) | Demonstrates that carefully curated, textbook-quality synthetic data can enable relatively small language models to achieve strong coding and reasoning performance. | *arXiv* |
+| 2026.03 | [Reasoning-Driven Synthetic Data Generation and Evaluation](https://arxiv.org/abs/2603.29791) | [Google Research](https://research.google/pubs/reasoning-driven-synthetic-data-generation-and-evaluation/) | Introduces **Simula**, a seedless and reasoning-driven framework that reframes synthetic-data generation as **dataset-level mechanism design**. Instead of optimizing individual samples in isolation, Simula explicitly controls dataset-wide **coverage, local diversity, complexity, and quality** through hierarchical taxonomy construction, diversification, complexification, and critic-based quality control, enabling synthetic datasets to be designed around downstream model and domain requirements. | *TMLR 2026* |
+
 
 ---
 
