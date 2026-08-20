@@ -1,4 +1,4 @@
-# DataSynthesis
+# Awesome Synthetic Data for LLMs, World Models & Long-Horizon Agents
 
 This repository tracks and organizes the latest, most relevant work in synthetic data for LLMs, world models, and long-horizon agentic data synthesis—aggregating papers, tools, datasets, blogs, and other practical resources into a single, searchable hub.
 
